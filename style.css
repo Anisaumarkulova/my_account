@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+}
+
+header nav {
+    width: 1100px;
+    margin: auto;
+}
+
+header nav ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul:nth-child(2) {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+header nav ul li a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 4px 10px;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+   font-size: 14px;
+}
+
+header nav ul li a:hover{
+    color: #DE2E54;
+    
+}
+
+
+header nav ul li a img {
+    vertical-align: middle;
+}
+
+header nav ul li a.Logo{
+    font-size: 24PX;
+}
+
+.btn{
+    padding: 12px 24px;
+    background-color: #DE2E54;
+    border-radius: 8px;
+    border: 2PX;
+    text-transform: uppercase;
+    font-weight: 14px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 0.4s;
+ }
+.btn:hover{
+    opacity: 80%;
+}
+
+ section{
+    background-color: #0EB4C1;
+    padding: 50px 20px;
+ }
+
+ section .section__wrapper{
+    width: 1100px;
+    margin: auto;
+ }
+
+ section .section__wrapper .section__item{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ section .section__wrapper .section__item h2{
+    font-size: 36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 700px;
+ }
+
+ section .section__wrapper .section__item h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    font-size: 18px;
+ }
+ article{
+    width: 100%;
+ }
+.section__list{
+    width: 1100px;
+    margin: auto;
+}
+
+.services{
+    width: 100%;
+    padding: 15px;
+}
+
+.services .services__wrapper{
+    width: 864px;
+    margin: auto;
+  
+}
+
+.services .services__wrapper .services__item{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.services .services__wrapper .services__item img {
+    width: 100%;
+
+}
+
+.services .services__wrapper .services__item:nth-child(1){
+    width:25%;
+}
+
+.services .services__wrapper .services__item:nth-child(2){
+    width:74%; 
+}
+
+.services .services__wrapper .services__item h3{
+    font-size: 24px;
+    color: #222222;
+    margin: 0 0 15px;
+}
+
+.forms{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    background: #0EB4C1;
+    height: 253px;
+    margin-top: 2117;
+}
+
+.forms .card{
+    width: 214px;
+}
+
+.forms .card{
+ width: 20%;
+ color:#8d0000;
+ border-radius: 25px    ;
+}
+
+header.footer {
+    background-color: black;
+}
+
+header.footer nav ul li a {
+    color: white;
+}
+
+
+
